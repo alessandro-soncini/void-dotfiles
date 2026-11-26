@@ -23,7 +23,7 @@ exec --no-startup-id picom -b
 exec --no-startup-id dunst
 
 exec_always --no-startup-id autotiling
-exec_always --no-startup-id feh --bg-scale $HOME/void-dotfiles/Wallpapers/green_mountains_wallpaper.jpg
+exec_always --no-startup-id feh --bg-scale $HOME/void-dotfiles/Wallpapers/void_modern_wallpaper.png
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).

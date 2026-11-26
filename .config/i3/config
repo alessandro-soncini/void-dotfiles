@@ -18,7 +18,9 @@ font pango:Hack 10
 default_border pixel 2
 gaps inner 4
 
+exec --no-startup-id pipewire
 exec --no-startup-id picom -b
+exec --no-startup-id dunst
 
 exec_always --no-startup-id autotiling
 exec_always --no-startup-id feh --bg-scale $HOME/void-dotfiles/Wallpapers/void_modern_wallpaper.png
